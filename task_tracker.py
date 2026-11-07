@@ -16,6 +16,7 @@ while True:
     print("\n1. Add Task")
     print("2. View Tasks")
     print("3. Exit")
+    print("4. diplay name")
 
     choice = input("Enter your choice: ")
 
@@ -25,5 +26,7 @@ while True:
         view_tasks()
     elif choice == "3":
         break
+    elif choice == "4":
+        print("Student Task Tracker ")
     else:
         print("Invalid choice!")
